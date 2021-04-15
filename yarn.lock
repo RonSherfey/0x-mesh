@@ -14,19 +14,20 @@
     lodash "^4.17.11"
     valid-url "^1.0.9"
 
-"@0x/base-contract@^6.2.3":
-  version "6.2.3"
-  resolved "https://registry.yarnpkg.com/@0x/base-contract/-/base-contract-6.2.3.tgz#d2025451a26f0f0d948559331e3dacaa05a88fbe"
-  integrity sha512-VZm0l0BhLEi+h5Ncoc/7fnmee2/1W7IjrJmCgD2zFjTYje+RHejdDNFy+U+tGC4CTV4G402hgxH4qzJlxkac5Q==
+"@0x/base-contract@^6.2.18", "@0x/base-contract@^6.2.3":
+  version "6.2.20"
+  resolved "https://registry.yarnpkg.com/@0x/base-contract/-/base-contract-6.2.20.tgz#a512dc5861fecca4bbf046e30fe30fda6d38eb2e"
+  integrity sha512-lM42lemBTdZoHoVUNjAXF5QwTmldyX+8jCr4csZRB/H2S1JGJvHCPyrkzhfsMXfwaT41y1sknwlRuEnz+tHutw==
   dependencies:
-    "@0x/assert" "^3.0.9"
-    "@0x/json-schemas" "^5.1.0"
-    "@0x/utils" "^5.5.1"
-    "@0x/web3-wrapper" "^7.2.0"
+    "@0x/assert" "^3.0.23"
+    "@0x/json-schemas" "^6.0.1"
+    "@0x/utils" "^6.3.0"
+    "@0x/web3-wrapper" "^7.4.3"
+    "@types/node" "12.12.54"
     ethereumjs-account "^3.0.0"
     ethereumjs-blockstream "^7.0.0"
     ethereumjs-util "^5.1.1"
-    ethereumjs-vm "^4.0.0"
+    ethereumjs-vm "^4.2.0"
     ethers "~4.0.4"
     js-sha3 "^0.7.0"
     uuid "^3.3.2"
@@ -69,12 +70,12 @@
     "@0x/web3-wrapper" "^7.2.0"
     lodash "^4.17.11"
 
-"@0x/contracts-erc20@^3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@0x/contracts-erc20/-/contracts-erc20-3.2.1.tgz#7673f5ea6215eba926c1911a6b558cf2a71be587"
-  integrity sha512-Tuj5P/Oli0PSedbhxXdn4/OHNPkaoVHzyvHYn0l4gIfeXB15ViEJOpjmT/jxInkkD4WpRVUyvXJtnezmeSaQAw==
+"@0x/contracts-erc20@^3.2.1", "@0x/contracts-erc20@^3.3.6":
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/@0x/contracts-erc20/-/contracts-erc20-3.3.6.tgz#9d39a9b79bf51fc0262a28bb0b3aa3c62ef27e36"
+  integrity sha512-gJZkb0tyd8TiHh54Z2nEZrXyV9BluKv5WuB5OqiENaMs9exA+N2qLYbti8T5upX6xNhyv5Kg3GCLwyvybj8H7w==
   dependencies:
-    "@0x/base-contract" "^6.2.3"
+    "@0x/base-contract" "^6.2.18"
 
 "@0x/contracts-erc721@^3.1.7":
   version "3.1.7"
@@ -5341,7 +5342,7 @@ ethereumjs-util@^7.0.2:
     ethjs-util "0.1.6"
     rlp "^2.2.4"
 
-ethereumjs-vm@4.2.0, ethereumjs-vm@^4.0.0:
+ethereumjs-vm@4.2.0, ethereumjs-vm@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/ethereumjs-vm/-/ethereumjs-vm-4.2.0.tgz#e885e861424e373dbc556278f7259ff3fca5edab"
   integrity sha512-X6qqZbsY33p5FTuZqCnQ4+lo957iUJMM6Mpa6bL4UW0dxM6WmDSHuI4j/zOp1E2TDKImBGCJA9QPfc08PaNubA==
